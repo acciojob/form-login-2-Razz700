@@ -6,5 +6,5 @@ let em=document.getElementById("email");
 let sub=document.getElementById("subm");
 sub.addEventListener("click",myfnc);
 function myfnc(){
-alert(`'First Name: ${fn.value}' 'Last Name: ${ls.value}' 'Phone Number: ${ph.value}' 'Email ID: ${em.value}'`);
+alert(`First Name: ${fn.value} Last Name: ${ls.value} Phone Number: ${ph.value} Email ID: ${em.value}`);
 }
